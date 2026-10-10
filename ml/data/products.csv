@@ -1,0 +1,18 @@
+product_id,name,category,type,price,stocked,batch_size
+1724d0e2-e253-4f72-a26d-159f32d19591,Agua con gas 500 ml,Bebidas,Reventa,7.0,True,12.0
+658cdcb1-a7aa-4b2a-be9f-d67d942c65bd,Agua sin gas 500 ml,Bebidas,Reventa,6.0,True,12.0
+bada4a69-b4b5-4508-ae28-9464895b5c2c,Brownie de chocolate,Pasteleria,Producto elaborado,8.5,True,16.0
+d4f00a75-5a5b-43ff-b1b9-e8130ad54ace,Cafe Americano,Cafes,Producto elaborado,13.0,False,1.0
+2cba1026-175c-4fbe-869b-3127730a35e0,Cafe Latte,Cafes,Producto elaborado,16.0,False,1.0
+559b889f-06c2-4bc7-a665-c9b9091e6777,Capuchino,Cafes,Producto elaborado,17.0,False,1.0
+12894edf-4946-4c8e-b878-be1d2e8d12f5,Chokolatte,Cafes,Producto elaborado,19.0,False,1.0
+5a97f0b6-9d74-4e9a-b83c-b1b37a4da778,Croissant,Pasteleria,Reventa,7.5,True,12.0
+6d3768f1-c2c5-4e83-b349-5e2ea3b1dd4e,Espresso,Cafes,Producto elaborado,10.0,False,1.0
+a12139dd-f835-4d94-9abc-61fb76c5fe0b,Frappuccino,Cafes,Producto elaborado,21.0,False,1.0
+8e432348-4d75-410a-9f54-847a57dcc74f,Galletas de mantequilla,Pasteleria,Producto elaborado,3.5,True,24.0
+685baae3-8095-4335-9e8a-ebf962381f41,Jugo de naranja natural,Bebidas,Producto elaborado,15.0,False,1.0
+34e70f18-9769-4776-98ad-f352c4249280,Mocaccino,Cafes,Producto elaborado,19.0,False,1.0
+b1ab36c0-124b-416f-8040-d3d9c604dcbe,Sandwich Mixto,Sandwiches,Producto elaborado,22.0,False,1.0
+76928e6d-d217-49f1-9a78-98e4d9296389,Sandwich Napolitano,Sandwiches,Producto elaborado,24.0,False,1.0
+9270ced8-6715-4378-a541-581039451edf,Te caliente,Bebidas,Producto elaborado,9.0,False,1.0
+70d12a7e-d683-4c60-b834-ad1a70491dbd,Te frio 500 ml,Bebidas,Reventa,10.0,True,12.0

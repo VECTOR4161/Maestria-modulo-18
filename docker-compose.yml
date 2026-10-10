@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: cafeteria-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: cafeteria
+    ports:
+      - "5432:5432"
+    volumes:
+      - cafeteria-data:/var/lib/postgresql/data
+      - ./backup.sql:/docker-entrypoint-initdb.d/backup.sql:ro
+
+volumes:
+  cafeteria-data:

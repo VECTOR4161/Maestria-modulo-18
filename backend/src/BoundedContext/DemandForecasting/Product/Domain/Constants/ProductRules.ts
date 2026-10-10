@@ -1,0 +1,1 @@
+export const DISCONTINUED_AFTER_DAYS = 30;

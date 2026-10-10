@@ -1,0 +1,377 @@
+{
+  "model_version": "lgbm-202610101258",
+  "created_at": "2026-10-10T12:58:28+00:00",
+  "ranges": {
+    "train": [
+      "2021-10-29",
+      "2025-09-30"
+    ],
+    "validation": [
+      "2025-10-01",
+      "2026-03-31"
+    ],
+    "test": [
+      "2026-04-01",
+      "2026-10-03"
+    ]
+  },
+  "selected_params": {
+    "objective": "tweedie",
+    "num_leaves": 31
+  },
+  "num_boost_round": 280,
+  "test_rows": 2944,
+  "products_evaluated": 16,
+  "excluded_closed_days": 2,
+  "overall": {
+    "lightgbm": {
+      "mase_macro": 0.7510995964158828,
+      "mase_pooled": 0.7558111060264461,
+      "mae": 2.1289828174082253,
+      "rmse": 2.7804277881131862,
+      "wape": 0.35709465670292934,
+      "bias": -0.23225007667572437
+    },
+    "seasonal_naive": {
+      "mase_macro": 1.087589684032332,
+      "mase_pooled": 1.1013282131705295,
+      "mae": 3.102241847826087,
+      "rmse": 4.051846398758279,
+      "wape": 0.5203395624430265,
+      "bias": -0.06759510869565218
+    },
+    "same_weekday_mean": {
+      "mase_macro": 0.8555728686070987,
+      "mase_pooled": 0.8628960211754096,
+      "mae": 2.4306216032608696,
+      "rmse": 3.194688319363946,
+      "wape": 0.40768858249772105,
+      "bias": -0.08840013586956522
+    }
+  },
+  "success": true,
+  "per_product": [
+    {
+      "product_id": "12894edf-4946-4c8e-b878-be1d2e8d12f5",
+      "name": "Chokolatte",
+      "rows": 184,
+      "mase_lightgbm": 0.8265594912263599,
+      "mae_lightgbm": 2.233846035204699,
+      "mase_seasonal_naive": 1.2065749591979482,
+      "mae_seasonal_naive": 3.260869565217391,
+      "mase_same_weekday_mean": 0.9833585917463278,
+      "mae_same_weekday_mean": 2.657608695652174,
+      "bias_lightgbm": -0.200739463809686
+    },
+    {
+      "product_id": "2cba1026-175c-4fbe-869b-3127730a35e0",
+      "name": "Cafe Latte",
+      "rows": 184,
+      "mase_lightgbm": 0.7678367507033358,
+      "mae_lightgbm": 2.611225547287903,
+      "mase_seasonal_naive": 1.1506392440244582,
+      "mae_seasonal_naive": 3.9130434782608696,
+      "mase_same_weekday_mean": 0.9145184824902725,
+      "mae_same_weekday_mean": 3.110054347826087,
+      "bias_lightgbm": -0.6478090819603447
+    },
+    {
+      "product_id": "34e70f18-9769-4776-98ad-f352c4249280",
+      "name": "Mocaccino",
+      "rows": 184,
+      "mase_lightgbm": 0.7378885962507669,
+      "mae_lightgbm": 1.9255932350584128,
+      "mase_seasonal_naive": 1.1371063027366362,
+      "mae_seasonal_naive": 2.967391304347826,
+      "mase_same_weekday_mean": 0.8309622981536956,
+      "mae_same_weekday_mean": 2.1684782608695654,
+      "bias_lightgbm": -0.2262042836991954
+    },
+    {
+      "product_id": "559b889f-06c2-4bc7-a665-c9b9091e6777",
+      "name": "Capuchino",
+      "rows": 184,
+      "mase_lightgbm": 0.779177030817103,
+      "mae_lightgbm": 2.9129535751971467,
+      "mase_seasonal_naive": 1.2618405528400471,
+      "mae_seasonal_naive": 4.717391304347826,
+      "mase_same_weekday_mean": 0.9787259817967301,
+      "mae_same_weekday_mean": 3.6589673913043477,
+      "bias_lightgbm": -0.4125992436066197
+    },
+    {
+      "product_id": "5a97f0b6-9d74-4e9a-b83c-b1b37a4da778",
+      "name": "Croissant",
+      "rows": 184,
+      "mase_lightgbm": 0.7529390496575354,
+      "mae_lightgbm": 2.2175407171388284,
+      "mase_seasonal_naive": 1.0684370988446725,
+      "mae_seasonal_naive": 3.1467391304347827,
+      "mase_same_weekday_mean": 0.860839216944801,
+      "mae_same_weekday_mean": 2.535326086956522,
+      "bias_lightgbm": -0.11828860312454041
+    },
+    {
+      "product_id": "658cdcb1-a7aa-4b2a-be9f-d67d942c65bd",
+      "name": "Agua sin gas 500 ml",
+      "rows": 184,
+      "mase_lightgbm": 0.6855511464531094,
+      "mae_lightgbm": 1.432011373971051,
+      "mase_seasonal_naive": 0.9990950226244343,
+      "mae_seasonal_naive": 2.0869565217391304,
+      "mase_same_weekday_mean": 0.8137160633484162,
+      "mae_same_weekday_mean": 1.6997282608695652,
+      "bias_lightgbm": 0.11017682047416433
+    },
+    {
+      "product_id": "685baae3-8095-4335-9e8a-ebf962381f41",
+      "name": "Jugo de naranja natural",
+      "rows": 184,
+      "mase_lightgbm": 0.7441213169563079,
+      "mae_lightgbm": 1.8023959309263062,
+      "mase_seasonal_naive": 0.9894966181061395,
+      "mae_seasonal_naive": 2.3967391304347827,
+      "mase_same_weekday_mean": 0.820653941207076,
+      "mae_same_weekday_mean": 1.9877717391304348,
+      "bias_lightgbm": 0.20895296465643706
+    },
+    {
+      "product_id": "6d3768f1-c2c5-4e83-b349-5e2ea3b1dd4e",
+      "name": "Espresso",
+      "rows": 184,
+      "mase_lightgbm": 0.7567330865017023,
+      "mae_lightgbm": 1.898512579565116,
+      "mase_seasonal_naive": 1.1416212288427288,
+      "mae_seasonal_naive": 2.864130434782609,
+      "mase_same_weekday_mean": 0.84375990253177,
+      "mae_same_weekday_mean": 2.1168478260869565,
+      "bias_lightgbm": -0.3855204566322495
+    },
+    {
+      "product_id": "70d12a7e-d683-4c60-b834-ad1a70491dbd",
+      "name": "Te frio 500 ml",
+      "rows": 184,
+      "mase_lightgbm": 0.6648646387649321,
+      "mae_lightgbm": 1.1713683238731885,
+      "mase_seasonal_naive": 0.931598712446352,
+      "mae_seasonal_naive": 1.641304347826087,
+      "mase_same_weekday_mean": 0.7588519313304721,
+      "mae_same_weekday_mean": 1.3369565217391304,
+      "bias_lightgbm": -0.2151417985187819
+    },
+    {
+      "product_id": "76928e6d-d217-49f1-9a78-98e4d9296389",
+      "name": "Sandwich Napolitano",
+      "rows": 184,
+      "mase_lightgbm": 0.691741309989277,
+      "mae_lightgbm": 1.4932389078301858,
+      "mase_seasonal_naive": 0.9969922389021671,
+      "mae_seasonal_naive": 2.152173913043478,
+      "mase_same_weekday_mean": 0.7886561081719795,
+      "mae_same_weekday_mean": 1.702445652173913,
+      "bias_lightgbm": 0.07114789903765446
+    },
+    {
+      "product_id": "8e432348-4d75-410a-9f54-847a57dcc74f",
+      "name": "Galletas de mantequilla",
+      "rows": 184,
+      "mase_lightgbm": 0.722032667729452,
+      "mae_lightgbm": 2.7752988488655683,
+      "mase_seasonal_naive": 1.040655737704918,
+      "mae_seasonal_naive": 4.0,
+      "mase_same_weekday_mean": 0.7709477459016393,
+      "mae_same_weekday_mean": 2.963315217391304,
+      "bias_lightgbm": -0.5768397626676606
+    },
+    {
+      "product_id": "9270ced8-6715-4378-a541-581039451edf",
+      "name": "Te caliente",
+      "rows": 184,
+      "mase_lightgbm": 0.8690537612482492,
+      "mae_lightgbm": 1.6827991230723816,
+      "mase_seasonal_naive": 1.2040758216726326,
+      "mae_seasonal_naive": 2.3315217391304346,
+      "mase_same_weekday_mean": 0.9360356329319883,
+      "mae_same_weekday_mean": 1.8125,
+      "bias_lightgbm": -0.2894209021057607
+    },
+    {
+      "product_id": "a12139dd-f835-4d94-9abc-61fb76c5fe0b",
+      "name": "Frappuccino",
+      "rows": 184,
+      "mase_lightgbm": 0.6049609803580057,
+      "mae_lightgbm": 1.7203126684882193,
+      "mase_seasonal_naive": 0.7816736302432084,
+      "mae_seasonal_naive": 2.222826086956522,
+      "mase_same_weekday_mean": 0.7090486963819811,
+      "mae_same_weekday_mean": 2.016304347826087,
+      "bias_lightgbm": 0.3652438483334638
+    },
+    {
+      "product_id": "b1ab36c0-124b-416f-8040-d3d9c604dcbe",
+      "name": "Sandwich Mixto",
+      "rows": 184,
+      "mase_lightgbm": 0.768747443958603,
+      "mae_lightgbm": 2.1730315271570846,
+      "mase_seasonal_naive": 1.080528310298707,
+      "mae_seasonal_naive": 3.0543478260869565,
+      "mase_same_weekday_mean": 0.8185674877396343,
+      "mae_same_weekday_mean": 2.313858695652174,
+      "bias_lightgbm": -0.17342139145466157
+    },
+    {
+      "product_id": "bada4a69-b4b5-4508-ae28-9464895b5c2c",
+      "name": "Brownie de chocolate",
+      "rows": 184,
+      "mase_lightgbm": 0.8029652423449511,
+      "mae_lightgbm": 2.454938472500128,
+      "mase_seasonal_naive": 1.118121393239901,
+      "mae_seasonal_naive": 3.4184782608695654,
+      "mase_same_weekday_mean": 0.8994744435284419,
+      "mae_same_weekday_mean": 2.75,
+      "bias_lightgbm": -0.19732444938720287
+    },
+    {
+      "product_id": "d4f00a75-5a5b-43ff-b1b9-e8130ad54ace",
+      "name": "Cafe Americano",
+      "rows": 184,
+      "mase_lightgbm": 0.8424210296944331,
+      "mae_lightgbm": 3.5586582123953874,
+      "mase_seasonal_naive": 1.2929780727923628,
+      "mae_seasonal_naive": 5.461956521739131,
+      "mase_same_weekday_mean": 0.9610493735083533,
+      "mae_same_weekday_mean": 4.059782608695652,
+      "bias_lightgbm": -1.028213322346606
+    }
+  ],
+  "discontinued": [
+    {
+      "product_id": "1724d0e2-e253-4f72-a26d-159f32d19591",
+      "name": "Agua con gas 500 ml",
+      "last_sale_date": "2026-03-27",
+      "rows": 184,
+      "mean_actual": 0.0,
+      "lightgbm": {
+        "mae": 0.9888968867630873,
+        "rmse": 1.0145484530230346,
+        "wape": null,
+        "bias": 0.9888968867630873
+      },
+      "seasonal_naive": {
+        "mae": 0.03260869565217391,
+        "rmse": 0.3759047057780561,
+        "wape": null,
+        "bias": 0.03260869565217391
+      }
+    }
+  ],
+  "waste_simulation": {
+    "products": [
+      "Agua sin gas 500 ml",
+      "Brownie de chocolate",
+      "Croissant",
+      "Galletas de mantequilla",
+      "Te frio 500 ml"
+    ],
+    "days": 184,
+    "lightgbm": {
+      "surplus_units": 1073.0,
+      "shortage_units": 802.0
+    },
+    "seasonal_naive": {
+      "surplus_units": 1292.0,
+      "shortage_units": 1338.0
+    },
+    "same_weekday_mean": {
+      "surplus_units": 1196.0,
+      "shortage_units": 897.0
+    },
+    "actual_units": 5090.0
+  },
+  "feature_importance": [
+    {
+      "feature": "roll_mean_28",
+      "gain": 117394.28450119495
+    },
+    {
+      "feature": "same_dow_mean_4",
+      "gain": 36886.39335477352
+    },
+    {
+      "feature": "product_code",
+      "gain": 26998.062710165977
+    },
+    {
+      "feature": "roll_mean_7",
+      "gain": 14592.411944150925
+    },
+    {
+      "feature": "day_of_week",
+      "gain": 12523.599997758865
+    },
+    {
+      "feature": "week_of_year",
+      "gain": 8634.38849723339
+    },
+    {
+      "feature": "roll_std_28",
+      "gain": 5493.1089062690735
+    },
+    {
+      "feature": "lag_364",
+      "gain": 4141.934129238129
+    },
+    {
+      "feature": "days_since_launch",
+      "gain": 3687.333247423172
+    },
+    {
+      "feature": "day_of_month",
+      "gain": 3564.8636486530304
+    },
+    {
+      "feature": "month",
+      "gain": 2900.8209915161133
+    },
+    {
+      "feature": "is_school_vacation",
+      "gain": 2099.984861135483
+    },
+    {
+      "feature": "discount_active",
+      "gain": 1536.1920365095139
+    },
+    {
+      "feature": "lag_7",
+      "gain": 1337.6335390806198
+    },
+    {
+      "feature": "lag_14",
+      "gain": 1059.2189495563507
+    },
+    {
+      "feature": "lag_21",
+      "gain": 977.8996008634567
+    },
+    {
+      "feature": "lag_28",
+      "gain": 880.2858101129532
+    },
+    {
+      "feature": "category_code",
+      "gain": 874.1241388320923
+    },
+    {
+      "feature": "is_holiday_eve",
+      "gain": 462.7378718852997
+    },
+    {
+      "feature": "discount_pct",
+      "gain": 205.6286976337433
+    },
+    {
+      "feature": "is_closed",
+      "gain": 0.0
+    }
+  ]
+}
