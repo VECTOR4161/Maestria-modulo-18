@@ -1,4 +1,4 @@
-# Pronóstico de demanda diaria por artículo — Proyecto N° 30
+# Pronóstico de demanda diaria por artículo
 
 **Estudiante:** Fernando Ichazo Cisneros
 
@@ -174,16 +174,7 @@ El backend no incluye pruebas automáticas. Su flujo completo se verifica manual
 2. **Caso difícil:** Galletas de mantequilla, fecha de corte 2026-02-14. El lunes y martes de Carnaval quedan en 0 y se sugieren tandas de 24.
 3. **Entrada inválida:** cargar un CSV con una cantidad negativa o con menos de 28 días. Se muestra el error.
 
-## 7. Entregables
-
-| Archivo | Contenido |
-|---|---|
-| `entregables/informe_tecnico.pdf` | Informe técnico completo (16 páginas): problema, dataset, metodología, resultados, análisis de errores, sistema, pruebas y limitaciones. |
-| `entregables/resultados_evaluacion.pdf` | Resultados de evaluación (9 páginas): validación cruzada por pliegue, métricas globales y por producto, segmentos, peores errores y simulación de mermas. |
-| `entregables/presentacion.pptx` · `presentacion.pdf` | Presentación de 15 diapositivas con notas del orador. |
-| `instrucciones_ejecucion.md` | Guion paso a paso para la demostración en vivo. |
-
-## 8. Límites
+## 7. Límites
 
 - El horizonte máximo es de 7 días y se requieren al menos 28 días de historial.
 - No usa clima, eventos locales ni precios no registrados.
